@@ -1,5 +1,5 @@
 #Modelo autorregresivo integrado de media movil.
-#Función de autocorrelacion y autocorrelacion parcial
+#FunciÃ³n de autocorrelacion y autocorrelacion parcial
 #Prueba de Dickey-Fuller
 #Prueba de Ljung-Box
 
@@ -12,8 +12,8 @@ library(forecast)
 
 
 #Definir el directorio de trabajo
-setwd("C:/Users/lr_29/Desktop/Big Data Goal/R/Proyectos R Studio/Arima_stock")
-#Informacion de la compañia Johnson & Johnson (JNJ) 2006-2016.
+setwd("...")
+#Informacion de la compaÃ±ia Johnson & Johnson (JNJ) 2006-2016.
 mydata<-read.csv(file="jnj.csv",header=TRUE)
 View(mydata)
 attach(mydata)
